@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T06:41:02.456Z" agent="5.0 (X11; Ubuntu)" etag="mnPAca6AmFIIROdLwCST" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T06:45:17.925Z" agent="5.0 (X11; Ubuntu)" etag="tv4Tjfvtf6Bzs6mdpYOA" version="21.0.6" type="github">
   <diagram name="Page-1" id="baod2YbWqUGKOtKm7SYT">
-    <mxGraphModel dx="3070" dy="2376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2594" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,13 @@
         <mxCell id="-IHdya4t79_MKVama7wa-37" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Execute payment&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;POST request to `https://api.honkio.com/paymentspaymentexecute" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-IHdya4t79_MKVama7wa-12">
           <mxGeometry x="30" y="440" width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="-IHdya4t79_MKVama7wa-39" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Finalize payment&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;POST request to `https://api.honkio.com/paymentspaymentfinalize&lt;br&gt;&lt;br&gt;Payer makes a request using `merchant_id` and `merchant_api_key`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-IHdya4t79_MKVama7wa-12">
+        <mxCell id="-IHdya4t79_MKVama7wa-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-IHdya4t79_MKVama7wa-12" source="-IHdya4t79_MKVama7wa-39" target="-IHdya4t79_MKVama7wa-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-IHdya4t79_MKVama7wa-12" source="-IHdya4t79_MKVama7wa-39" target="-IHdya4t79_MKVama7wa-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-39" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Finalize payment&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;POST request to `https://api.honkio.com/paymentspaymentfinalize&lt;br&gt;&lt;br&gt;Payer makes a request using `merchant_id` and `merchant_api_key`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-IHdya4t79_MKVama7wa-12">
           <mxGeometry x="30" y="840" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="-IHdya4t79_MKVama7wa-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-IHdya4t79_MKVama7wa-12" source="-IHdya4t79_MKVama7wa-40" target="-IHdya4t79_MKVama7wa-42">
@@ -71,6 +77,18 @@
         </mxCell>
         <mxCell id="-IHdya4t79_MKVama7wa-45" value="Update order status and create transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-IHdya4t79_MKVama7wa-12">
           <mxGeometry x="690" y="590" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-65" value="Payer sends his data (email, phone number, address etc.)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-IHdya4t79_MKVama7wa-12">
+          <mxGeometry x="405" y="840" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-67" value="Update Payment order data with data received from the Payer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-IHdya4t79_MKVama7wa-12">
+          <mxGeometry x="405" y="940" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-IHdya4t79_MKVama7wa-12" source="-IHdya4t79_MKVama7wa-69" target="-IHdya4t79_MKVama7wa-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-69" value="&lt;font style=&quot;font-size: 30px;&quot; color=&quot;#C94242&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;End here&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-IHdya4t79_MKVama7wa-12">
+          <mxGeometry x="30" y="790" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-IHdya4t79_MKVama7wa-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IHdya4t79_MKVama7wa-13" target="-IHdya4t79_MKVama7wa-15">
           <mxGeometry relative="1" as="geometry" />
@@ -151,7 +169,7 @@
             <mxPoint x="40" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-IHdya4t79_MKVama7wa-53" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Initialize payment&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;POST request to `https://oauth.honkio.com/telia/init_external_auth&lt;br&gt;&lt;br&gt;Payer makes a request using `merchant_id` and `merchant_api_key`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="-IHdya4t79_MKVama7wa-17">
+        <mxCell id="-IHdya4t79_MKVama7wa-53" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Initialize payment&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;POST request to `https://oauth.honkio.com/telia/init_external_auth&lt;br&gt;&lt;br&gt;Payer makes a request using `merchant_id` and `merchant_api_key`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-IHdya4t79_MKVama7wa-17">
           <mxGeometry x="70" y="40" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="-IHdya4t79_MKVama7wa-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-IHdya4t79_MKVama7wa-17" source="-IHdya4t79_MKVama7wa-54" target="-IHdya4t79_MKVama7wa-55">
