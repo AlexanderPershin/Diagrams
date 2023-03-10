@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T04:37:27.618Z" agent="5.0 (X11; Ubuntu)" etag="6vN5--oHOOD9kecBd22b" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T04:45:27.607Z" agent="5.0 (X11; Ubuntu)" etag="GVnfqbgiLj31JFjuFu6M" version="21.0.6" type="github">
   <diagram name="Page-1" id="baod2YbWqUGKOtKm7SYT">
     <mxGraphModel dx="1436" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,8 +37,47 @@
         <mxCell id="-IHdya4t79_MKVama7wa-12" value="API Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="990" height="320" as="geometry" />
         </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IHdya4t79_MKVama7wa-13" target="-IHdya4t79_MKVama7wa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-IHdya4t79_MKVama7wa-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Telia authentication&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Redirects with the `code` parameter" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1040" y="75" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IHdya4t79_MKVama7wa-15" target="-IHdya4t79_MKVama7wa-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Handle Telia response&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="90" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-17" value="OAuth Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="10" width="580" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-IHdya4t79_MKVama7wa-17" source="-IHdya4t79_MKVama7wa-18" target="-IHdya4t79_MKVama7wa-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-18" value="Use `code` from response to get `user_info`" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-IHdya4t79_MKVama7wa-17">
+          <mxGeometry x="70" y="170" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-IHdya4t79_MKVama7wa-17" source="-IHdya4t79_MKVama7wa-20" target="-IHdya4t79_MKVama7wa-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-20" value="Try to find existing user with that data" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-IHdya4t79_MKVama7wa-17">
+          <mxGeometry x="70" y="230" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-IHdya4t79_MKVama7wa-17" source="-IHdya4t79_MKVama7wa-22" target="-IHdya4t79_MKVama7wa-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-22" value="User&lt;br&gt;exists" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-IHdya4t79_MKVama7wa-17">
+          <mxGeometry x="160" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-IHdya4t79_MKVama7wa-17" source="-IHdya4t79_MKVama7wa-24" target="-IHdya4t79_MKVama7wa-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-24" value="Yes" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-IHdya4t79_MKVama7wa-17">
+          <mxGeometry x="40" y="310" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IHdya4t79_MKVama7wa-26" value="Update Payment order with found user&#39;s data" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-IHdya4t79_MKVama7wa-17">
+          <mxGeometry x="10" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
