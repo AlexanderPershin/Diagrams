@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T02:10:23.389Z" agent="5.0 (X11; Ubuntu)" version="21.0.6" etag="rKx_fVP6n8hXdTRZurOJ" type="github"><diagram name="Page-1" id="u8mDyyKTgikwHv_P04WH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-14T03:26:16.498Z" agent="5.0 (X11; Ubuntu)" etag="_hbjee0Zl95mCtr9fUTQ" version="21.0.6" type="github">
+  <diagram name="Page-1" id="u8mDyyKTgikwHv_P04WH">
+    <mxGraphModel dx="842" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lZ4HcSVLjm48VASPBQuG-1" target="lZ4HcSVLjm48VASPBQuG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-1" value="Register company" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lZ4HcSVLjm48VASPBQuG-2" target="lZ4HcSVLjm48VASPBQuG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-2" value="Register user" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lZ4HcSVLjm48VASPBQuG-4" target="lZ4HcSVLjm48VASPBQuG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-4" value="Confirm email " style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-6" value="Wait Admin approval" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
