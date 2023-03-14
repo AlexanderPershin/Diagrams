@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T03:39:11.988Z" agent="5.0 (X11; Ubuntu)" etag="fz2Ke9rHXZDKQvdsLXAS" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T03:55:33.816Z" agent="5.0 (X11; Ubuntu)" etag="XLfPn1nY6_yr5Xv5dugQ" version="21.0.6" type="github">
   <diagram name="Page-1" id="u8mDyyKTgikwHv_P04WH">
     <mxGraphModel dx="842" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,13 +13,13 @@
         <mxCell id="lZ4HcSVLjm48VASPBQuG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lZ4HcSVLjm48VASPBQuG-2" target="lZ4HcSVLjm48VASPBQuG-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lZ4HcSVLjm48VASPBQuG-2" value="Register user" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-2" value="Confirm email" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lZ4HcSVLjm48VASPBQuG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lZ4HcSVLjm48VASPBQuG-4" target="lZ4HcSVLjm48VASPBQuG-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lZ4HcSVLjm48VASPBQuG-4" value="Confirm email " style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-4" value="Register user" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lZ4HcSVLjm48VASPBQuG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lZ4HcSVLjm48VASPBQuG-6" target="lZ4HcSVLjm48VASPBQuG-8">
