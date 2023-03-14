@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T03:30:11.180Z" agent="5.0 (X11; Ubuntu)" etag="vgAVkJpsi6Hj6R8yODXR" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T03:39:11.988Z" agent="5.0 (X11; Ubuntu)" etag="fz2Ke9rHXZDKQvdsLXAS" version="21.0.6" type="github">
   <diagram name="Page-1" id="u8mDyyKTgikwHv_P04WH">
     <mxGraphModel dx="842" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,11 +43,11 @@
         <mxCell id="lZ4HcSVLjm48VASPBQuG-10" value="Approval" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="220" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lZ4HcSVLjm48VASPBQuG-13" value="Accept" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="140" width="60" height="60" as="geometry" />
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-13" value="Accept&lt;br&gt;&lt;br&gt;status: true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="300" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lZ4HcSVLjm48VASPBQuG-15" value="Reject" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="320" width="60" height="60" as="geometry" />
+        <mxCell id="lZ4HcSVLjm48VASPBQuG-15" value="Reject&lt;br&gt;&lt;br&gt;status: false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
